@@ -82,7 +82,7 @@ class LightSwitch {
      * Writes the current status to a persistent cache.
      */
     public function __destruct() {
-        file_put_contents('cache', json_encode(array('status' => $this->_status)));
+        file_put_contents('/Users/nwilliams/Projects/iota/public_html/test_devices/cache', json_encode(array('status' => $this->_status)));
     }
 
     /**
@@ -135,7 +135,7 @@ class LightSwitch {
     /**
      * Retrieves the current status of the switch.
      *
-     * @param $type the type of status request
+     * @param string $type the type of status request
      * @param array $args optional additional arguments
      *
      * @return string the current status

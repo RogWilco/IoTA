@@ -1,0 +1,10 @@
+{
+	"require": {
+		"bedrock/bedrock": "0.3.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Iota\\": "src/lib/Iota/"
+		}
+	}
+}

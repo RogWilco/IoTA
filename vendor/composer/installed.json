@@ -1,0 +1,47 @@
+[
+    {
+        "name": "bedrock/bedrock",
+        "version": "0.3.1",
+        "version_normalized": "0.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/RogWilco/Bedrock-Framework.git",
+            "reference": "c4c05dd90b050ab2aeaf6fec02e0ee3be84b7037"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/RogWilco/Bedrock-Framework/zipball/c4c05dd90b050ab2aeaf6fec02e0ee3be84b7037",
+            "reference": "c4c05dd90b050ab2aeaf6fec02e0ee3be84b7037",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-10-09 23:37:51",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Bedrock": "src/lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "New BSD"
+        ],
+        "authors": [
+            {
+                "name": "Nick Williams",
+                "email": "nick@bedrockframework.com",
+                "homepage": "http://www.nickawilliams.com/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Bedrock Framework",
+        "homepage": "http://www.bedrockframework.com/",
+        "keywords": [
+            "framework",
+            "mvc"
+        ]
+    }
+]

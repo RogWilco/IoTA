@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <main>
+    <meta>
+      <title>Iota</title>
+      <namespace>Iota</namespace>
+      <version>
+        <application>1.0.0</application>
+        <bedrock>0.3.0</bedrock>
+      </version>
+      <timezone>America/Los_Angeles</timezone>
+      <dates>
+        <installed>2014-05-29 13:08:07</installed>
+        <updated>2014-05-29 13:08:07</updated>
+      </dates>
+    </meta>
+    <root>
+      <web>/</web>
+      <system>/Users/nwillia1/Dropbox/Projects/Iota/src/</system>
+      <cfg>/Users/nwillia1/Dropbox/Projects/Iota/cfg/</cfg>
+      <lib>/Users/nwillia1/Dropbox/Projects/Iota/src/lib/</lib>
+      <log>/Users/nwillia1/Dropbox/Projects/Iota/log/</log>
+      <pub>/Users/nwillia1/Dropbox/Projects/Iota/src/pub/</pub>
+    </root>
+    <database>
+      <type>mysql</type>
+      <host>localhost</host>
+      <dbname>iota</dbname>
+      <username>iota</username>
+      <password>iota</password>
+    </database>
+    <logger>
+      <targets>
+        <system>
+          <active>1</active>
+          <level>warn</level>
+        </system>
+        <file>
+          <active>1</active>
+          <level>info</level>
+        </file>
+        <firephp>
+          <level>traverse</level>
+          <active>1</active>
+        </firephp>
+        <growl>
+          <level>warn</level>
+          <active>1</active>
+        </growl>
+      </targets>
+    </logger>
+    <env>
+      <os/>
+      <file>
+        <maxsize>2097152</maxsize>
+      </file>
+      <error>E_ALL - E_NOTICE</error>
+    </env>
+    <growl>
+      <host>127.0.0.1</host>
+    </growl>
+    <cookie>
+      <name>Application</name>
+      <life>172800</life>
+    </cookie>
+  </main>
+</config>

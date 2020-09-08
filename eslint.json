@@ -1,0 +1,13 @@
+{
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"brace-style": [2, "stroustrup"],
+		"camelcase": 2,
+		"no-extra-strict": 1,
+		"quotes": [2, "single"],
+		"strict": 2,
+		"valid-jsdoc": 1
+	}
+}

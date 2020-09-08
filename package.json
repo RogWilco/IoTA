@@ -1,0 +1,28 @@
+{
+  "name": "Iota",
+  "version": "0.1.0",
+  "description": "IoT nexus",
+  "author": "Nick Williams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.4.x",
+    "config": "https://github.com/lorenwest/node-config/archive/master.tar.gz",
+    "express": "4.4.x",
+    "mongoose": "3.8.x",
+    "rekuire": "0.1.x",
+    "underscore": "1.6.x"
+  },
+  "devDependencies": {
+    "eslint": "0.6.x",
+    "grunt": "0.4.x",
+    "grunt-contrib-watch": "0.6.x",
+    "grunt-env": "^0.4.x",
+    "grunt-eslint": "0.5.x",
+    "grunt-express-server": "0.4.x",
+    "mocha": "1.20.x"
+  }
+}
